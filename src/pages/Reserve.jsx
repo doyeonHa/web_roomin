@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import image from '../image/enlargement.png'
 import styled from 'styled-components';
 import './Reserve.css';
 
@@ -75,9 +76,8 @@ function Reserve() {
             </div>
         </div>
         <hr id="selecline" />
-        <div id="gridgrid">
+        <div id="gridgrid" style={{marginTop:-800}}>
             <div>
-                <div id="reserver1">
                     <div id="reservation">예약 현황</div>
                     <div></div>
                     <select id="select2">
@@ -85,8 +85,8 @@ function Reserve() {
                         <option value="2">오래된 순</option>
                         <option value="3">이름순</option>
                     </select>
-                    <div id="enlargement"></div>
-                </div>
+                    <div style={{backgroundImage: `url(${image})`}}></div>
+
                 <div id="grid3">
                     <div class="rec">
                         <div class="data">2025.05.25</div>
