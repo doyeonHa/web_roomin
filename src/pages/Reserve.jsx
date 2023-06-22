@@ -15,7 +15,7 @@ function Reserve() {
                 <div id="g1">
                     <div id="first">
                         <div id="mt">예약자 정보</div>
-                        <div style="margin-top: -0.05vw">
+                        <div>
                             <input type="search" id="search" placeholder="검색하기"/>
                             <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png"/>
                         </div>
@@ -49,10 +49,6 @@ function Reserve() {
                 </div>
             </div>
             <div>
-                <div id="hotels">
-                    <div id="hotelname">호텔이름</div>
-                    <div id="hotelimg"></div>
-                </div>
                 <div id="g2">
                     <div id="first">
                         <div id="mts">여권등록요청</div>
@@ -69,9 +65,8 @@ function Reserve() {
                             <tr>
                                 <td>김땡땡</td>
                                 <td>M12345678</td>
-                                <td style="width: 12vw">
-                                    <div id="btng"><button style="background-color: #34C759;">승인</button><button
-                                            style="background-color: #FF3B30;">거절</button></div>
+                                <td>
+                                    <div id="btng"><button>승인</button><button>거절</button></div>
                                 </td>
                             </tr>
                         </tbody>
@@ -122,7 +117,7 @@ function Reserve() {
                 <div id="resevrer2">
                     <div id="reservation2">객실 현황</div>
                     <div id="text">
-                        <div id="per" style="color: #FF617D;">697</div>
+                        <div id="per">697</div>
                         <div>/806</div>
                     </div>
                 </div>
