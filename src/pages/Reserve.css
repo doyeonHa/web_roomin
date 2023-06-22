@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'GmarketSansMedium';
+}
+body{
+    height: 100%;
+    background-color: #FBFBFB;
+}
+#logo{
+    position: absolute;
+    width: 167.14px;
+    height: 31px;
+    left: 50px;
+    top: 50px;
+    background-size: cover;
+}
+#nav{
+    position: absolute;
+    width: 280px;
+    height: 1070px;
+    left: 0px;
+    top: 0px;
+    /* g1 */
+    background: #FBFBFB;
+    border: solid 1px #E8E8E8;
+}
+#nav-con{
+    position: absolute;
+    left: 20px;
+    top: 162px;
+}
+.box{
+    width: 220px;
+    height: 72px;
+    font-size: 16px;
+    background: #FBFBFB;
+    border-radius: 16px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 20px;
+}
+#nav1{
+    background-color: #FBECEE;
+}
+#nav3{
+    margin-bottom: 520px;
+}
+#icon1{
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+}
+#icon2{
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+}
+#icon3{
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+}
+#icon4{
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+}
+#icon5{
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+}
+.img{
+    margin-left: 10px;
+    margin-right: 15px;
+}
+.gridgroup{
+    position: absolute;
+    width: 335px;
+    height: 48px;
+    left: 340px;
+    top: 40px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 75px 110px 110px;
+    grid-template-columns: 105px 110px 110px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.chat{
+    background-color: #F4F4F4;
+    border-radius: 16px;
+    padding: 12px 12px 12px 12px;
+    color: #D1D1D1;
+}
+.chat:hover{
+    background-color: #FF617D;
+    color: #FBFBFB;
+}
+
+#mt{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#hotelname{
+    position: absolute;
+    width: 223px;
+    height: 18px;
+    left: 1581px;
+    top: 56px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* Gray7 */
+    
+    color: #494949;
+    
+}
+#hotelimg{
+    background-size: cover;
+    position: absolute;
+    width: 68px;
+    height: 51px;
+    left: 1809px;
+    top: 39px;
+    border-radius: 400px;
+}
+
+#g1{
+    position: absolute;
+    width: 937px;
+    height: 878px;
+    left: 330px;
+    top: 119px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+#g2{
+    position: absolute;
+    width: 564px;
+    height: 878px;
+    left: 1306px;
+    top: 118px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+#first{
+    padding: 60px 20px 20px 60px;
+    display: grid;
+    grid-template-columns: 142px 400px 70px;
+    grid-column-gap: 75px;
+}
+
+#search{
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 16px;
+    background-color: #E8E8E8;
+    border: solid #e4e4e4 1px;
+    text-indent: 10px;
+    font-size: 16px;
+}
+#search:focus {
+    border: 1px solid #e8e8e8;
+    outline: none;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.search {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    width: 18px;
+    top: 73px;
+    right: 297px;
+    margin: 0;
+  }
+
+  #select{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    font-size: 16px;
+  }
+
+  table {
+    margin: 0 auto;
+    width: 95%;
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    margin-top: 20px
+  }
+  th, td {
+    border: 1px solid #444444;
+  }
+
+  #back{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    width: 102px;
+    height: 48px;
+    left: 821px;
+    top: 812px;
+    justify-content: center;
+    align-items: center;
+    /* Secondary */
+    background: #5362CA;
+    border-radius: 16px;
+    color: #FBFBFB;
+  }

@@ -1,0 +1,167 @@
+body {
+    height: 100%;
+    background-color: #FBFBFB;
+}
+
+#logo {
+    position: absolute;
+    width: 9vw;
+    height: 1.7vw;
+    left: 20%;
+    top: 5%;
+    background-image: url('../이미지/roomin.png');
+    background-size: cover;
+}
+
+#nav {
+    width: 17vw;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #FBFBFB;
+    border: solid 1px #E8E8E8;
+    position: fixed;
+}
+
+#nav-con {
+    position: absolute;
+    left: 12%;
+    top: 17%;
+    display: grid;
+    grid-row-gap: 0.5vw;
+}
+
+.box {
+    width: 12.5vw;
+    height: 3.5vw;
+    font-size: 1vw;
+    background: rgb(251, 251, 251);
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.box:hover {
+    background-color: #FBECEE;
+}
+
+#nav3 {
+    margin-bottom: 520px;
+}
+
+#icon1 {
+    width: 1.3vw;
+    height: 1.3vw;
+    background-image: url('../이미지/icon1.png');
+    background-size: cover;
+}
+
+#icon2 {
+    width: 1.3vw;
+    height: 1.3vw;
+    background-image: url('../이미지/icon2.png');
+    background-size: cover;
+}
+
+#icon3 {
+    width: 1.3vw;
+    height: 1.3vw;
+    background-image: url('../이미지/icon3.png');
+    background-size: cover;
+}
+
+#icon4 {
+    width: 1.3vw;
+    height: 1.3vw;
+    background-image: url('../이미지/logout.png');
+    background-size: cover;
+}
+
+#icon5 {
+    width: 1.3vw;
+    height: 1.3vw;
+    background-image: url('../이미지/setting.png');
+    background-size: cover;
+}
+
+#maingrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 35%;
+    float: right;
+    position: absolute;
+    top: 0;
+    grid-column-gap: 2%;
+    right: 0;
+    left: 20vw;
+}
+
+.img {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+#group {
+    text-align: center;
+}
+
+.gridgroup {
+    width: 17.5%;
+    display: grid;
+    grid-column-gap: 0.8vw;
+    grid-template-columns: 6vw 7vw 7vw;
+    text-align: center;
+    margin-top: 2.5vw;
+}
+
+.chat {
+    background-color: #F4F4F4;
+    border-radius: 1vw;
+    padding: 12px 12px 12px 12px;
+    color: #D1D1D1;
+    font-size: 1.2vw;
+}
+
+.chat:hover {
+    background-color: #FF617D;
+    color: #FBFBFB;
+}
+
+#mt {
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #494949;
+}
+
+#mts {
+    width: 171%;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #494949;
+    margin-top: 36%;
+}
+
+#hotelname {
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #494949;
+}
+
+#hotels {
+    display: flex;
+    float: right;
+    column-gap: 1vw;
+    margin-top: 3vw;
+}
+
+#hotelimg {
+    background-size: cover;
+    width: 68px;
+    height: 51px;
+    background-image: url('../이미지/back.png');
+    border-radius: 400px;
+}
