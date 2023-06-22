@@ -32,10 +32,8 @@ function Signuping() {
     <div id="text">호텔 주소를 입력해주세요!</div>
 
     {/* 모달창 띄우기 */}
-    <TextAdress>주소검색</TextAdress>
-    {isModalOpen && (
-              <Modal/>
-      )}
+    <TextAdress onClick={searchMap}>주소검색</TextAdress>
+    {isModalOpen === 0 ? <Modal/> : ""}
     <input type="text" class="detailaddress" placeholder="상세주소"/>
     <button id="nextbtn" onclick="window.location.href = '/회원가입/html/step2.html'">다음</button>
     </div>
