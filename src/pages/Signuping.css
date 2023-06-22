@@ -35,19 +35,6 @@
     /* g7 */
     color: #494949;
 }
-     
-#search {
-    position: absolute;
-    width: 488px;
-    height: 80px;
-    left: 1196px;
-    top: 491px;
-    background-color: #FF617D;
-    border-radius: 16px;
-    font-size: 20px;
-    color: #FBFBFB;
-    border: none;
-}
 
 .detailaddress:focus {
     border: none;

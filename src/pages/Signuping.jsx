@@ -32,7 +32,7 @@ function Signuping() {
     <div id="text">호텔 주소를 입력해주세요!</div>
 
     {/* 모달창 띄우기 */}
-    <button id="search" onClick={searchMap}>주소검색</button>
+    <TextAdress>주소검색</TextAdress>
     {isModalOpen && (
               <Modal/>
       )}
@@ -41,4 +41,19 @@ function Signuping() {
     </div>
   );
 }
+const TextAdress = styled.div`
+    display: flex;
+    text-indent: 40px;
+    align-items: center;  
+    position: absolute;
+    width: 488px;
+    height: 80px;
+    left: 1196px;
+    top: 491px;
+    background-color: #FF617D;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #FBFBFB;
+    border: none;
+`
 export default Signuping;
