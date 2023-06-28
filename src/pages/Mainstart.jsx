@@ -1,9 +1,7 @@
-import React, {useState, useSession, useRouter} from 'react';
+import React, {useState} from 'react';
 import styled from 'styled-components';
-import { NavLink as Link } from 'react-router-dom';
-import { useNavigate } from "react-router-dom";
 import './MainStart.css'
-import image from '../image/roomin.png';
+import logoimage from '../image/roomin.png';
 import axios from 'axios'
 
 function Mainstart(){
@@ -45,7 +43,7 @@ function Mainstart(){
   }
    return (
 	  <body>
-      <Logo style={{backgroundImage: `url(${image})`}}></Logo>
+      <Logo style={{backgroundImage: `url(${logoimage})`}}></Logo>
       <Form id="forms" method="post">
         <input type="text" placeholder="호텔 아이디" class="input1" id="inp1" name="id"/>
         <input type="password" placeholder="비밀번호" class="input2" id="inp2" name="pw"/>
