@@ -9,7 +9,6 @@ body {
     height: 1.7vw;
     left: 20%;
     top: 5%;
-    background-image: url('../이미지/roomin.png');
     background-size: cover;
 }
 
@@ -53,35 +52,30 @@ body {
 #icon1 {
     width: 1.3vw;
     height: 1.3vw;
-    background-image: url('../이미지/icon1.png');
     background-size: cover;
 }
 
 #icon2 {
     width: 1.3vw;
     height: 1.3vw;
-    background-image: url('../이미지/icon2.png');
     background-size: cover;
 }
 
 #icon3 {
     width: 1.3vw;
     height: 1.3vw;
-    background-image: url('../이미지/icon3.png');
     background-size: cover;
 }
 
 #icon4 {
     width: 1.3vw;
     height: 1.3vw;
-    background-image: url('../이미지/logout.png');
     background-size: cover;
 }
 
 #icon5 {
     width: 1.3vw;
     height: 1.3vw;
-    background-image: url('../이미지/setting.png');
     background-size: cover;
 }
 
@@ -162,6 +156,5 @@ body {
     background-size: cover;
     width: 68px;
     height: 51px;
-    background-image: url('../이미지/back.png');
     border-radius: 400px;
 }
